@@ -1,0 +1,33 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="mvn-web:war exploded">
+    <output-path>$PROJECT_DIR$/mvn-web/target/mvn-web</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="mvn-web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: redis.clients:jedis:2.7.3" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-pool2:2.3" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.4.5" />
+          <element id="archive" name="mvn-service-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="mvn-service" />
+          </element>
+          <element id="archive" name="mvn-dao-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="mvn-dao" />
+          </element>
+          <element id="archive" name="mvn-util-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="mvn-util" />
+          </element>
+          <element id="archive" name="mvn-beans-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="mvn-beans" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/mvn-web/target/mvn-web/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="mvn-web/web/Web" />
+    </root>
+  </artifact>
+</component>

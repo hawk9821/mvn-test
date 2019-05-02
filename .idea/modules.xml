@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mvn-beans/mvn-beans.iml" filepath="$PROJECT_DIR$/mvn-beans/mvn-beans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvn-dao/mvn-dao.iml" filepath="$PROJECT_DIR$/mvn-dao/mvn-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvn-parent/mvn-parent.iml" filepath="$PROJECT_DIR$/mvn-parent/mvn-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvn-service/mvn-service.iml" filepath="$PROJECT_DIR$/mvn-service/mvn-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/mvn-test.iml" filepath="$PROJECT_DIR$/.idea/mvn-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvn-util/mvn-util.iml" filepath="$PROJECT_DIR$/mvn-util/mvn-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvn-web/mvn-web.iml" filepath="$PROJECT_DIR$/mvn-web/mvn-web.iml" />
+    </modules>
+  </component>
+</project>
